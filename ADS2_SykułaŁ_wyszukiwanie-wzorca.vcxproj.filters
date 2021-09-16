@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ADS2_SykułaŁ_wyszukiwanie-wzorca.cpp">
+    <ClCompile Include="DNA_pattern search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

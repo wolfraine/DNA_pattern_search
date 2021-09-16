@@ -1,4 +1,4 @@
-﻿#include <string.h>
+﻿#include <string>
 #include <iostream>
 #include <fstream>
 
@@ -39,6 +39,7 @@ void rabinKarp(std::string pattern, std::string text, int q) {
 }
 
 int main() {
+	
 	std::string text = "";
 	std::string pattern = "";
 	std::string fileName = "";
@@ -54,14 +55,14 @@ int main() {
 				plik >> text;
 			}
 			std::cin >> pattern;
-
+	
 			rabinKarp(pattern, text, q);
 			plik.close();
 		}
 		else {
-			std::cout << "Plik nie istnieje lub jest uszkodzony. \n";
+			std::cout << "file dont exist or is cashed. \n";
 		}
 	}
 	std::cout << "\n";
-	system("PAUSE");
+	system("PAUSE"); 
 }
